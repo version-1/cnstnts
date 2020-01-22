@@ -3,6 +3,7 @@
     "target": "ES2018",
     "rootDir": "./",
     "baseUrl": "./",
+    "module": "commonjs",
     "declaration": true,
     "strict": true,
     "skipLibCheck": true,
