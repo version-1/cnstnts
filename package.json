@@ -1,6 +1,6 @@
 {
   "name": "cnstnts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "author": "version-1",
@@ -30,8 +30,7 @@
     "eslint-config-prettier": "^6.9.0",
     "eslint-plugin-prettier": "^3.1.2",
     "jest": "^25.1.0",
-    "prettier": "^1.19.1",
-    "ts-jest": "^24.3.0"
+    "prettier": "^1.19.1"
   },
   "prettier": {
     "semi": false,
