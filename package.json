@@ -1,8 +1,8 @@
 {
   "name": "cnstnts",
   "version": "1.0.3",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "author": "version-1",
   "description": "Easily define Plain Object base Enum helper",
   "repository": {
