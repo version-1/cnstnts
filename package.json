@@ -2,10 +2,20 @@
   "name": "cnstnts",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "version-1",
+  "description": "Easily define Plain Object base Enum helper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://version-1@github.com/version-1/cnstnts.git"
+  },
+  "homepage": "https://github.com/version-1/cnstnts#readme",
   "license": "MIT",
   "scripts": {
+    "prepublish": "yarn test",
+    "prepare": "yarn build",
     "build": "tsc",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "dependencies": {
     "lodash": "^4.17.15",
@@ -26,5 +36,12 @@
   "prettier": {
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "files": [
+    "./dist"
+  ],
+  "keywords": [
+    "enum",
+    "constant"
+  ]
 }
