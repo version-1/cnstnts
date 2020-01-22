@@ -4,6 +4,12 @@
 
 Easily define "Plain Object-base" enum helper.
 
+## Install
+
+```
+yarn add version-1/cnstnts
+```
+
 ## How to Use
 
 ```javascript
